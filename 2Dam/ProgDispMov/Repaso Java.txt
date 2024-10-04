@@ -1,0 +1,8 @@
+Crear una clase /
+Crear una propiedad 
+""	""	""	estatica
+crear una interfaz
+crear una instancia ejemplo de polimorfismo
+hacer una lista
+hacer un set
+recorrer un array

@@ -1,0 +1,91 @@
+//funciones manejo de variables y repaso
+//Existen las variables "any" por si no sabemos el tipo de dato que nos va a llegar
+function CalculeSqueareArea(side:number, text:string){
+    return text + side*side + " m2"
+}
+const square:number = 4
+const text:string = "El area del cuadrado es de: "
+console.log(CalculeSqueareArea(square, text))
+
+//Boolean e if
+const variable:boolean = true
+if (variable) console.log("es correcto")
+
+//Objetos
+const objetoNuevo:{
+    nombre:string,
+    edad:number
+}=
+{
+    nombre: "Pepito",
+    edad: 13
+}
+console.log(objetoNuevo)
+//array
+//se podria crear un array metiendole todo tipo de datos(como en javascript)
+//pero no es lo más adecduado para TypeScript
+const array = [1,2,"hola", 4.5, true]
+const arrayCadenas:string[] = ["1","2","3"]
+const arrayNumeros:number[] = [1,2,3]
+//Veamos ahora un ejemplo en el que enviamos a una función 3 valores:
+function calculaAreaTriangulo(nombre:string, base:number, altura:number){
+    return (nombre+(base*altura/2))
+}
+const nombre:string="El area del triangulo es: "
+const arrayDatos:number[]=[4,6]
+console.log(calculaAreaTriangulo(nombre, arrayDatos[0], arrayDatos[1]))
+//Recorrer un array
+const arrayRecorrido:number[]=[1,2,3,4,5,6,7,8,9]
+for (const dato of arrayRecorrido){
+    console.log(dato)
+}
+//Ejercicio
+//Como ejercicio, el alumno debe crear un array de cadenas de 5 nombres 
+//y recorrerlo, imprimiendo el resultado por consola.
+const arrayNombres:string[]=["Alvaro", "Kike", "Juanlu", "Josemi", "Flores"]
+for (const i of arrayNombres){
+    console.log(i)
+}
+//array predefinido
+let arrayPred:[string, string]=["1","2"]
+arrayPred=["1", "2"]
+//enum
+//Variable para crear varias de ellas en una sola(tienen unos valores por defecto(0,1,2))
+//Se pueden cambiar los valores por defecto
+enum colores {blue="0000FF", red="FF0000", green="00FF00", black="000000"}
+
+const preferencias ={
+    size: 8,
+    font: "Arial",
+    color: colores.black
+}
+
+if (preferencias.color==colores.black) console.log("color es black")
+//any(Puede almacenar cualquier tipo de dato)
+function merge1(first:any, second:any){
+    console.log(first + second)
+}
+
+merge1(true, true)
+
+//Podemos delimitar con el comando "pipe" los valores que acepta nuestro param
+function merge(valor1: string | number, valor2: string | number){
+    //definir el tipo de una variable: "TYPEOF"(se compara con 3 simbolos de igual)
+    if (typeof valor1==="number" && typeof valor2==="number"){
+        return valor1 + valor2
+    }
+    else return null
+}
+
+console.log(merge(1,2))
+
+//Controlar el error
+function merge(valor1: string | number, valor2: string | number){
+    //definir el tipo de una variable: "TYPEOF"(se compara con 3 simbolos de igual)
+    if (typeof valor1==="number" && typeof valor2==="number"){
+        return valor1 + valor2
+    }
+    throw new Error("error tipo")
+}
+
+console.log(merge("1",2))

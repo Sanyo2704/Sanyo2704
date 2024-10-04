@@ -1,0 +1,43 @@
+/*
+1.Definir una función para calcular el área de un triángulo, tenemos que utilizar una enumeración para pasarle los valores iniciales de la base y de la altura del 
+triángulo y también vamos a utilizar un puntero a función para mostrar el resultado por la consola.
+*/
+enum triangulo {base=5, altura=7}
+
+function calculaAreaTriangulo2(base:number, altura:number) {
+    return base*altura/2
+}
+let calculo: (b:number, a:number)=> number
+
+calculo= calculaAreaTriangulo2
+
+console.log(calculo(triangulo.base, triangulo.altura))
+
+/*
+2.Ahora hacer el mismo ejercicio pero en vez de utilizar una enumeración, utilizar un array de datos.
+*/
+const triangulo2:number[] = [5, 7]
+
+function calculaAreaTriangulo3(base1:number, altura1:number) {
+    return base1*altura1/2
+}
+let calculo2: (b:number, a:number)=> number
+
+calculo= calculaAreaTriangulo2
+
+console.log(calculo(triangulo2[0], triangulo2[1]))
+
+/*
+Vamos a definir una función que reciba como parámetros 2 valores que van a ser de tipo “literal”, la función se llamará “calculoAlumno”, el primer parámetro será “color_pelo” 
+y podrá tomar solo valores “negro” y “rubio” y el segundo parámetro será “edad” que solo podrá tomar valores entre 14 y 16 años incluidos. Se debe asignar un puntero a función 
+para probar la misma. La función devolverá: Color de pelo:  {color_pelo} y edad:  {edad}.
+*/
+function calculoAlumno(color_pelo: "negro" | "rubio", edad: 14 | 15 | 16) {
+    return "Color de Pelo: " + color_pelo + " Edad: " + edad
+}
+
+let calcular: (color_pelo: "negro" | "rubio", edad: 14 | 15 | 16)=> string
+
+calcular= calculoAlumno
+
+console.log(calcular("negro", 15))

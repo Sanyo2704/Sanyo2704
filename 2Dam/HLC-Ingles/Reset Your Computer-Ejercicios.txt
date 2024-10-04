@@ -1,0 +1,37 @@
+Reset Your Computer
+pg4
+
+-1
+a)Mouse
+b)Keyboard
+c)VR Glasses
+d)Game Controller
+e)Webcam
+f)QR code
+g)Pendrive
+h)Headset
+i)Laptop
+j)Smart Watch
+k)Router
+l)3D Printer
+
+pg9-10
+
+-3
+a)web designer
+b)software developer
+c)programmer
+d)IT Manager
+e)information security analyst
+f)helpdesk technician
+g)java developer
+h)database administrator
+
+-4
+b)A web designer is creating the thecnical structure for website
+c)A programmer is someone who writes computer programs
+d)An IT Manager is coordinating a team of programmers/developers and analysts to complete projects
+e)An information security analyst is someone who creates systems to protect the information on websites from cyberattacks
+f)A helpdesk technician is providing thecnical support and assistance to customers
+g)A java developer is someone who is responsable for the design, development, and management of java-based applications
+h)A database administrator is analyzing and evaluating the data needs of users
