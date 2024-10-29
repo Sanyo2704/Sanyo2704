@@ -1,0 +1,114 @@
+1..
+-Positive adjectives:challenging, interesting, rewarding, temporary, full-time, permanente, outdoor, indoor, remote
+onsite, skilled, unusual, well-paid, varied.
+-Negative adjectives: stressful, temporary, permanente, part-time, demanding, outdoor, indoor, onsite, tedious,
+badly paid, repetitive.
+2..
+-------------------------------------------------
+pg 39 VOCABULARY
+1.1.
+a)Smartphone
+b)Laptop
+c)Tablet
+d)Router
+e)AirPods
+f)Smart TV
+g)Smart Watch
+
+1.2.
+a)Mainframe
+b)Laptop
+c)Desktop computer
+d)Smartphone
+e)Tablet
+f)Workstation
+
+pg 40
+1.1.
+	USER		TYPE OF COMPUTER		USE
+-Data analyst 		Mainframe		A high-performance computer used for large-scale, compute-intensive 						purposes and tasks that require greater availability and security 						than smaller-scale machines.
+
+-Anyone			Tablet PC		A wireless, portable personal computer with a touchscreen interface.
+
+-Office workers		Desktop computer	Personal computing device designed to fit on a typical office desk.
+
+-Software dev		Workstation		A high-performance computer system that is basically designed for a 						single user and has advanced graphics capabilities, large storage 						capacity, and a powerful central processing unit.
+
+-Everyone		Smartphone		A mobile phone that can be used to make and receive phone calls, 
+						browse the internet and play music.
+
+-Student		Laptop			A personal and portable computer that can be easily carried around.
+
+1.2.
+a)Input device: Keyboard
+b)Output device: Speakers
+c)Storage device: USB Flash Drive
+
+2.
+a)Microphone
+b)KeyBoard
+c)Digital pencil
+d)Webcam
+e)Computer Monitor
+f)Printer
+g)Headphones
+h)USB Flas Drive
+i)Speakers
+j)Camera
+k)Router
+
+pg 58 READING
+1.
+a)No, they have modern features and new technologies.
+b)Acces to internet, playing games, making calls, sending messages, etc.
+c)They are appropiete because so many parents want a device that helps keep track of them.
+d)Some smartwatches can monitor your heart rate, stress label, sleep patterns, etc.
+e)No i don't, I don't really like watches because they are uncomfortable for me.
+
+2.
+a)Vital
+b)Traditional
+c)Activity
+d)Standard
+e)Cost
+
+3.
+a)true
+b)false
+c)true
+d)false
+e)true
+
+4.
+-Advantage: 
+	Finding phone, key or any device is easier.
+	Changeable watch faces.
+-Disadvantage: 
+	Smaller screen.
+	Not a necessity.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
