@@ -1,0 +1,14 @@
+{
+    "TIME": {
+        "TIME_LABEL": "EL TIEMPO",
+        "LATITUDE_LABEL": "Latitud",
+        "LATITUDE_HOLDER": "Inserta latitud: ",
+        "LONGITUDE_LABEL": "Longitud",
+        "LONGITUDE_HOLDER": "Inserta longitud: ",
+        "SEND_LABEL": "ENVIAR",
+        "MAX_TEMP": "Temperatura máxima: ",
+        "MIN_TEMP": "Temperatura mínima: ",
+        "HUMIDITY_LABEL": "Humedad: ",
+        "VELOCITY_LABEL": "Velocidad: "
+    }
+}
